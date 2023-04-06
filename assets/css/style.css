@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    transition: all .3s cubic-bezier(.38, 1.15, .7, 1.12);
+    font-weight: normal;
+    font-family: poppins,sans-serif;
+}
+
+.navbar-expand-lg .navbar-collapse {
+    direction: rtl;
+}
+.navbar-expand-lg .navbar-nav {
+    direction: ltr;
+}
+.navbar-expand-lg .navbar-nav li{
+    margin: 0 1rem;
+}
+.navbar-expand-lg .navbar-nav li a:hover{
+    color: #F9995D;
+}
+.navbar-expand-lg .navbar-nav li a:checked{
+    color: #F9995D;
+}
+.navbar-brand {
+    margin: 0 0 0 4rem;
+}
+
+header{
+    /* background-image: url('assets/img/anime-dark-witch-nm-3840x2160.jpg'); */
+    /* background-color: rgb(185, 185, 185); */
+    width: 100%;
+    height: 40rem;
+    position: relative;
+}
+header img {
+    width: 100%;
+    height: 40rem;
+}
+header .text-heder{
+    display: inline-block;
+    margin: 15rem 7rem;
+    top: 0rem;
+    left: 0;
+    color: black;
+    position: absolute;
+}
+header .text-heder h1{
+    font-size: 3rem;
+    font-weight: 900;
+}
+header  .card-heder {
+    width: 25rem;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: #3559C7;
+    color: white;
+    border-radius: 3px;
+}
+header  .card-heder .text {
+    padding: 2rem;
+}
+header  .card-heder .text h6{
+    text-align: center;
+    font-weight: 900;
+}
+header  .card-heder .text h5{
+    font-size: 1rem;
+    text-align: center;
+}
+header  .card-heder .bn {
+    display: flex;    
+
+}
+header  .card-heder .bn button{
+    width: 50%;
+    background-color: #292E3D;
+    color: white;
+    padding: 0.4rem 1rem;
+}
+
+body h2 {
+    font-size: 1.7rem;
+    text-align: center;
+    margin: 2rem auto;
+    font-weight: 900;
+}
+section  {
+    margin: 0 0 3rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+section .card {
+    display: inline-block;
+    padding: 2rem;
+    width: 25%;
+    
+}
+section .card h5{
+    margin: 2rem 0 1rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+section .card p{
+    margin: 0;
+    font-size: .9rem;
+    opacity: .7;
+}
+
+
+/* Mobile */
+@media screen and (max-width: 767px) {
+    /* ****************************************************************************** */
+}
+
+/* small Screens */
+@media screen and (min-width: 768px) {
+
+}
+/* Large Screens */
+@media screen and (min-width: 1024px) {
+}
+@media screen and (min-width: 1200px) {
+
+}
+
+
